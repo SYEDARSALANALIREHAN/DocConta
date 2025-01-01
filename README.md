@@ -60,7 +60,8 @@ docker build -t node-app .
 The `docker-compose.yml` file is pre-configured to link the Node.js application with the MySQL database. Here is a breakdown of the service setup:
 
 - Node.js Application (app): Exposes port `3000`.
-- MySQL Database (db): Exposes port `3306`, with a default database and user setup from the `init.sql` file.
+- MySQL Database (db): Exposes port `3306`
+- phpmyadmin : Exposes port '8080'
 
 4. Run the Application Using Docker Compose
 
