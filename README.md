@@ -18,17 +18,18 @@ Before you start, ensure you have the following installed:
 
 .
 ├── webapp/
-│   ├── Dockerfile
-│   ├── server.js
-│   ├── package.json
-│   └── npm-init/
+│   ├── Dockerfile            # Dockerfile for building Node.js container
+│   ├── server.js             # The main server file for the Node.js application
+│   ├── package.json          # Node.js dependencies and scripts
+│   └── npm-init/             # Directory for initializing npm project
 │
-├── docker-compose.yml
-│   └── nodejs image
-│   ├── mysql image
-│   └── php-admin image (for Easy Appearence
-│ 
-└── README.md
+├── docker-compose.yml        # Docker Compose configuration
+│   ├── nodejs image          # Node.js container configuration
+│   ├── mysql image           # MySQL container configuration
+│   └── php-admin image       # PHP Admin container for easier management and visualization
+│
+└── README.md                 # Project documentation (this file)
+
 
 
 - `app/`: Contains the Node.js application files.
